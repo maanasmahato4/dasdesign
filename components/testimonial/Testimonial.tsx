@@ -13,9 +13,8 @@ export default function Testimonial() {
 					<Image
 						src={Woman}
 						alt=''
-						className='rounded-md md:rounded-full'
-						height={350}
-						width={350}
+						className='w-[250px] rounded-md sm:w-[350px] md:rounded-full'
+						sizes='(max-width: 768x) 250 350'
 					/>
 				</div>
 				<div className='flex flex-col gap-y-8 px-4 text-left sm:px-16 md:px-0'>
