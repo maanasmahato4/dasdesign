@@ -1,4 +1,5 @@
 import AboutUs from '@/components/about/About';
+import Contact from '@/components/contact/Contact';
 import Hero from '@/components/hero/Hero';
 import Process from '@/components/process/Process';
 import Testimonial from '@/components/testimonial/Testimonial';
@@ -11,6 +12,7 @@ function Home() {
 			<AboutUs />
 			<Process />
 			<Testimonial />
+			<Contact />
 		</Fragment>
 	);
 }
