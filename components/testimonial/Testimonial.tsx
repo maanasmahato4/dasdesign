@@ -3,19 +3,22 @@ import Woman from '@/public/assets/woman.webp';
 
 export default function Testimonial() {
 	return (
-		<section className='flex items-center justify-center' id='testimonial'>
-			<div className='absolute -z-50 h-[40rem] w-[40rem] rounded-full bg-gradient-to-b from-yellow-400 via-orange-500 to-red-500'></div>
-			<div className='grid h-screen grid-cols-2 items-center justify-center gap-x-48 px-24'>
-				<div className='flex items-center justify-end'>
+		<section
+			className='flex items-center justify-center md:h-screen'
+			id='testimonial'
+		>
+			<div className='absolute -z-50 hidden h-[40rem] w-[40rem] rounded-full bg-gradient-to-b from-yellow-400 via-orange-500 to-red-500 md:block'></div>
+			<div className='grid grid-cols-1 items-center justify-center gap-x-4 gap-y-4 px-2 sm:gap-x-8 sm:px-4 md:h-screen md:grid-cols-2 md:gap-x-24 md:gap-y-0 md:px-8 lg:gap-x-48 lg:px-24'>
+				<div className='flex items-center justify-center md:justify-end'>
 					<Image
 						src={Woman}
 						alt=''
-						className='rounded-full'
+						className='rounded-md md:rounded-full'
 						height={350}
 						width={350}
 					/>
 				</div>
-				<div className='flex flex-col gap-y-8 text-left'>
+				<div className='flex flex-col gap-y-8 px-4 text-left sm:px-16 md:px-0'>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis,
 						omnis dolor excepturi consequatur, quod quia totam dignissimos,
