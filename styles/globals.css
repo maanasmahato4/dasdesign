@@ -13,3 +13,8 @@
 		@apply flex flex-grow flex-col;
 	}
 }
+
+.bg-orange-35 {
+	background-color: orange;
+	height: 35vh;
+}
