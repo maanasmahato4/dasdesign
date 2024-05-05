@@ -3,11 +3,10 @@ import heroBg from '@/public/assets/hero.webp';
 
 export default function Hero() {
 	return (
-		<section className='relative flex flex-grow flex-col items-center justify-center'>
-			{/* <div className='absolute flex-grow bg-[url(/assets/hero.webp)] bg-cover bg-no-repeat blur-sm'></div> */}
+		<section className='relative flex h-screen flex-col items-center justify-center'>
 			<Image className='-z-10 blur-sm' fill src={heroBg} alt='' />
 			<div className='flex w-[40%] flex-col justify-center gap-y-8'>
-				<h1 className='w-[65%]  text-5xl text-white'>
+				<h1 className='w-[65%] text-5xl text-white'>
 					WE HELP SMALL BUSINESSES AND CORPORATIONS
 				</h1>
 				<p className='rounded-sm bg-yellow-300 p-4'>
