@@ -2,7 +2,10 @@ import React from 'react';
 
 export default function Process() {
 	return (
-		<div className='relative grid h-screen grid-cols-2 grid-rows-2 items-stretch justify-center gap-8 p-12'>
+		<section
+			className='relative grid h-screen grid-cols-2 grid-rows-2 items-stretch justify-center gap-8 p-12'
+			id='process'
+		>
 			<div className='flex flex-col gap-y-8 rounded-md p-4 shadow-md shadow-zinc-400'>
 				<h2 className='text-5xl font-bold text-pink-400'>01</h2>
 				<h3 className='text-2xl font-bold'>Development</h3>
@@ -43,6 +46,6 @@ export default function Process() {
 					commodi laborum!
 				</p>
 			</div>
-		</div>
+		</section>
 	);
 }

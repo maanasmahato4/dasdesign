@@ -3,7 +3,7 @@ import Woman from '@/public/assets/woman.webp';
 
 export default function Testimonial() {
 	return (
-		<div className='flex items-center justify-center'>
+		<section className='flex items-center justify-center' id='testimonial'>
 			<div className='absolute -z-50 h-[40rem] w-[40rem] rounded-full bg-gradient-to-b from-yellow-400 via-orange-500 to-red-500'></div>
 			<div className='grid h-screen grid-cols-2 items-center justify-center gap-x-48 px-24'>
 				<div className='flex items-center justify-end'>
@@ -36,6 +36,6 @@ export default function Testimonial() {
 					</p>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }

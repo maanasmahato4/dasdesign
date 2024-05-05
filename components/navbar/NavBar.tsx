@@ -8,16 +8,16 @@ export default function NavBar() {
 				<Link href='#hero' className='hover:text-cyan-600'>
 					Home
 				</Link>
-				<Link href='#hero' className='hover:text-cyan-600'>
+				<Link href='#about' className='hover:text-cyan-600'>
 					About us
 				</Link>
-				<Link href='#hero' className='hover:text-cyan-600'>
+				<Link href='#process' className='hover:text-cyan-600'>
 					Process
 				</Link>
-				<Link href='#hero' className='hover:text-cyan-600'>
+				<Link href='#testimonial' className='hover:text-cyan-600'>
 					Testimonials
 				</Link>
-				<Link href='#hero' className='hover:text-cyan-600'>
+				<Link href='#contact' className='hover:text-cyan-600'>
 					Contact us
 				</Link>
 			</nav>

@@ -1,6 +1,8 @@
+import Link from 'next/link';
+
 export default function AboutUs() {
 	return (
-		<div className='relative grid h-screen grid-rows-4 px-8'>
+		<section className='relative grid h-screen grid-rows-4 px-8' id='about'>
 			<div className='row-span-3 grid grid-cols-2 items-center gap-x-16'>
 				<div className='flex h-[10rem] flex-col text-right'>
 					<h2 className='text-5xl font-bold'>01</h2>
@@ -28,10 +30,12 @@ export default function AboutUs() {
 				</div>
 			</div>
 			<div className='row-span-1 flex items-start justify-center'>
-				<button className='rounded-lg bg-yellow-400 p-4 px-12 hover:bg-yellow-300'>
-					Contact Us
-				</button>
+				<Link href='#contact'>
+					<button className='rounded-lg bg-yellow-400 p-4 px-12 hover:bg-yellow-300'>
+						Contact Us
+					</button>
+				</Link>
 			</div>
-		</div>
+		</section>
 	);
 }

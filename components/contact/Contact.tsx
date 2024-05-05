@@ -3,7 +3,7 @@ import ConfidentWoman from '@/public/assets/confident-young.webp';
 
 export default function Contact() {
 	return (
-		<section className='grid h-screen grid-rows-7'>
+		<section className='grid h-screen grid-rows-7' id='contact'>
 			<div className='row-span-3 flex flex-col items-center justify-center gap-y-8'>
 				<h3 className='w-[70%] text-center text-4xl font-bold'>
 					WE COLLABORATE WITH BRANDS AND AGENCIES TO CREATE MEMORABLE
