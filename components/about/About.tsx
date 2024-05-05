@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function AboutUs() {
 	return (
 		<section className='relative grid h-screen grid-rows-4 px-8' id='about'>
-			<div className='row-span-3 grid grid-cols-2 items-center gap-x-16'>
+			<div className='row-span-3 grid grid-cols-1 items-center gap-x-16 sm:grid-cols-2'>
 				<div className='flex h-[10rem] flex-col text-right'>
 					<h2 className='text-5xl font-bold'>01</h2>
 					<h3 className='text-2xl'>Design Services</h3>
@@ -29,7 +29,7 @@ export default function AboutUs() {
 					</p>
 				</div>
 			</div>
-			<div className='row-span-1 flex items-start justify-center'>
+			<div className='row-span-1 flex items-end justify-center sm:items-center md:items-start'>
 				<Link href='#contact'>
 					<button className='rounded-lg bg-yellow-400 p-4 px-12 hover:bg-yellow-300'>
 						Contact Us
