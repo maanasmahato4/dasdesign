@@ -2,7 +2,10 @@ import Link from 'next/link';
 
 export default function NavBar() {
 	return (
-		<header className='flex w-full flex-row items-center justify-between px-8 py-4'>
+		<header
+			className='flex w-full flex-row items-center justify-between px-8 py-4'
+			id='nav'
+		>
 			<h3 className='italic'>DasDesign</h3>
 			<nav className='flex flex-row gap-x-4'>
 				<Link href='#hero' className='hover:text-cyan-600'>
