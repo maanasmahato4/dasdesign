@@ -6,6 +6,7 @@ import NavBar from '@/components/navbar/NavBar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+	metadataBase: new URL('https://dasdesign.vercel.com'),
 	title: {
 		default: 'The DasDesign',
 		template: '%s - DasDesign',
