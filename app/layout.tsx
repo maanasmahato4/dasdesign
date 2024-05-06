@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '@/styles/globals.css';
 import NavBar from '@/components/navbar/NavBar';
-import Head from 'next/head';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,16 +23,11 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<Head>
-				<meta
-					name='google-site-verification'
-					content='Aoqh9TJe1jzE-lGdHdsCz03d6YLQm5R-mOSf74ZDJY0'
-				/>
-			</Head>
 			<body className={inter.className}>
 				<NavBar />
 				<main>{children}</main>
 			</body>
+			<GoogleAnalytics gaId='G-WHCBWJ5YX8' />
 		</html>
 	);
 }
