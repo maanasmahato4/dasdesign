@@ -14,6 +14,9 @@ export const metadata: Metadata = {
 	},
 	description:
 		'We at the dasdesign create the best looking websites for your business',
+	verification: {
+		google: '8RzMhk9db5N4rCaNxpLlgPh2Ni8fNdxsYKdqzS6fPis',
+	},
 };
 
 export default function RootLayout({
@@ -23,12 +26,6 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
-			<head>
-				<meta
-					name='google-site-verification'
-					content='8RzMhk9db5N4rCaNxpLlgPh2Ni8fNdxsYKdqzS6fPis'
-				/>
-			</head>
 			<body className={inter.className}>
 				<NavBar />
 				<main>{children}</main>
